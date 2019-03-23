@@ -9,7 +9,9 @@ android:layout_height="match_parent" >
     android:id="@+id/my_recycler_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scrollbars="vertical" />
+    android:scrollbars="vertical"
+    android:background="@color/colorBackgroundMain"
+/>
 
 <ImageView
     android:id="@+id/imageView1"
@@ -20,7 +22,8 @@ android:layout_height="match_parent" >
     android:layout_marginBottom="12dp"
     android:layout_marginRight="12dp"
     android:elevation="2dp"
-    android:src="@android:drawable/ic_menu_add" />
+    android:src="@android:drawable/ic_menu_add"
+/>
 
 </RelativeLayout>
 
