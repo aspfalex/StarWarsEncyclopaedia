@@ -72,6 +72,8 @@
         android:layout_marginBottom="8dp"
 
         android:text="START"
+        android:onClick="startSWE"
+
         android:textSize="25sp"
         android:textStyle="bold"
         app:fontFamily="sans-serif"
